@@ -1,7 +1,7 @@
 # Fallen Meteors
 This app shows all the data that NASA has of fallen meteors since the year 1900.
 
-In this app, I decided to put corrotinas instead of RxJava, as Kotlin corrotinas provide much more flexibility than simple reactive programming, but I know that RxJava is still a great (and probably perfect) tool whenever we need to process real flows, where it doesn't is the case with this app, and Kotlin coroutines can interact with RxJava when needed. 
+In this app, I decided to put Coroutines instead of RxJava, as Kotlin Coroutines provide much more flexibility than simple reactive programming, but I know that RxJava is still a great (and probably perfect) tool whenever we need to process real flows, where it doesn't is the case with this app, and Kotlin Coroutines can interact with RxJava when needed. 
 
 
 ## Dependencies implementation
