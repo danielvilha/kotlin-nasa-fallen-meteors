@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Fallen meteors</string>
+
+    <string name="no_name">This item has no name</string>
+    <string name="no_mass">This item has no mass (g)</string>
+
+    <string name="has_no_lat_lng">This item cannot be demonstrated as it has no Latitude and Longitude</string>
+
+    <string name="name">Name</string>
+    <string name="mass">Mass (g)</string>
+    <string name="year">Year</string>
+
+    <string name="refresh">Refresh</string>
+
+    <string name="text_name">Name:</string>
+    <string name="text_id">ID:</string>
+    <string name="text_name_type">Name type:</string>
+    <string name="text_rec_class">Rec class:</string>
+    <string name="text_mass">Mass (g):</string>
+    <string name="text_fall">Fall:</string>
+    <string name="text_year">Year:</string>
+    <string name="text_reclat">Reclat:</string>
+    <string name="text_reclong">Reclong:</string>
+</resources>
