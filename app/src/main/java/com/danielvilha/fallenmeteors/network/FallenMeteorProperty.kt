@@ -12,14 +12,14 @@ import java.io.Serializable
  */
 data class FallenMeteorProperty(
     val id: String,
-    val name: String? = "This item has no name",
-    val nametype: String? = "This item has no name type",
-    val recclass: String? = "This item has no recclass",
-    val mass: String? = "This item has no mass",
-    val fall: String? = "This item has no fall",
+    val name: String?,
+    val nametype: String? = "Meteor has no name type",
+    val recclass: String? = "Meteor has no recclass",
+    val mass: String? = "Meteor has no mass",
+    val fall: String? = "Meteor has no fall",
     val year: String? = "0000",
-    val reclat: String? = "This item has no reclat",
-    val reclong: String? = "This item has no reclong",
+    val reclat: String? = "Meteor has no reclat",
+    val reclong: String? = "Meteor has no reclong",
     val geolocation: GeolocationProperty?
 ): Serializable
 
