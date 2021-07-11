@@ -89,6 +89,7 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/status_image"
+            android:src="@drawable/loading_img"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"

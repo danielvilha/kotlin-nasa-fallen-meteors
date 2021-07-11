@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isEmpty
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.danielvilha.fallenmeteors.R
@@ -49,9 +50,15 @@ class HomeFragment : Fragment() {
 
         // Setting the refresh in my recycler view
         binding.swipeRefresh.setOnRefreshListener {
-            val adapter = binding.recycler.adapter
-            binding.recycler.removeAllViews()
-            binding.recycler.adapter = adapter
+            if (binding.recycler.isEmpty()) {
+                viewModel.getFallenMeteorProperties()
+                binding.recycler.adapter = FallenMeteorAdapter(FallenMeteorAdapter.OnClickListener {
+                    viewModel.displayPropertyDetails(it)
+                })
+            } else {
+                viewModel.getFallenMeteorProperties()
+            }
+
             binding.swipeRefresh.isRefreshing = false
         }
 

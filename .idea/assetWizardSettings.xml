@@ -35,8 +35,8 @@
                           <map>
                             <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="ic_launcher_foreground" />
-                            <entry key="sourceFile" value="$USER_HOME$/Desktop/ic_launcher_foreground.svg" />
+                            <entry key="outputName" value="loading_img" />
+                            <entry key="sourceFile" value="$USER_HOME$/Desktop/loading-svgrepo-com.svg" />
                           </map>
                         </option>
                       </PersistentState>

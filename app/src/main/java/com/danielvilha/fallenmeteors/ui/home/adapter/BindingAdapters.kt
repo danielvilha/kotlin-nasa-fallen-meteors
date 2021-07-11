@@ -34,7 +34,7 @@ fun bindStatus(statusImageView: ImageView, status: FallenMeteorsStatus) {
             statusImageView.setImageResource(R.drawable.loading_animation)
         }
         FallenMeteorsStatus.ERROR -> {
-            statusImageView.visibility = View.GONE
+            statusImageView.visibility = View.VISIBLE
             statusImageView.setImageResource(R.drawable.ic_connection_error)
         }
         FallenMeteorsStatus.DONE -> {

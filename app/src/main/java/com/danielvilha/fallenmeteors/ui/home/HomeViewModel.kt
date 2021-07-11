@@ -46,12 +46,12 @@ class HomeViewModel : ViewModel() {
      * [FallenMeteorProperty] [List] [LiveData]. The Retrofit service returns a coroutine Deferred, which we
      * await to get the result of the transaction.
      */
-    private fun getFallenMeteorProperties() {
+    fun getFallenMeteorProperties() {
         viewModelScope.launch {
+            _status.value = FallenMeteorsStatus.LOADING
             val fallenMeteors = FallenMeteorApi.retrofitService.getFallenMeteorsAsync("year>='1900-1-01T00:00:00.000'")
 
             try {
-                _status.value = FallenMeteorsStatus.LOADING
                 val listResult = fallenMeteors.await()
                 _status.value = FallenMeteorsStatus.DONE
                 _meteors.value = listResult
