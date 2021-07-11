@@ -11,6 +11,7 @@ import androidx.navigation.fragment.findNavController
 import com.danielvilha.fallenmeteors.R
 import com.danielvilha.fallenmeteors.databinding.FragmentHomeBinding
 import com.danielvilha.fallenmeteors.ui.home.adapter.FallenMeteorAdapter
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.app_bar_main.*
 
 /**
@@ -63,9 +64,13 @@ class HomeFragment : Fragment() {
         }
 
         viewModel.navigateToSelectedProperty.observe(viewLifecycleOwner, {
-            if (it?.geolocation != null) {
-                this.findNavController().navigate(HomeFragmentDirections.actionOpenMeteorFragment(it))
-                viewModel.displayPropertyDetailsComplete()
+            if (it != null) {
+                if (it.geolocation == null) {
+                    Snackbar.make(binding.recycler, getString(R.string.has_no_lat_lng), Snackbar.LENGTH_LONG).show()
+                } else {
+                    this.findNavController().navigate(HomeFragmentDirections.actionOpenMeteorFragment(it))
+                    viewModel.displayPropertyDetailsComplete()
+                }
             }
         })
 

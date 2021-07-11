@@ -4,7 +4,7 @@
     <string name="no_name">This item has no name</string>
     <string name="no_mass">This item has no mass (g)</string>
 
-    <string name="has_no_lat_lng">This item cannot be demonstrated as it has no Latitude and Longitude</string>
+    <string name="has_no_lat_lng">This item has no Latitude and Longitude</string>
 
     <string name="name">Name</string>
     <string name="mass">Mass (g)</string>
