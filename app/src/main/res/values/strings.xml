@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Fallen meteors</string>
+    <string name="app_name">Fallen Meteors</string>
 
     <string name="has_no_lat_lng">Meteor has no location</string>
 
