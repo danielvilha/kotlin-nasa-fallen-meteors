@@ -15,8 +15,10 @@ interface FallenMeteorApiService {
      * HTTP method
      */
     @Headers("app_token: nw9EDzbru6hpFCyYh2cpZmX6m")
-    @GET("gh4g-9sfh.json?\$order=mass DESC")
+    @GET("gh4g-9sfh.json?\$order=mass DESC NULLS LAST")
     fun getFallenMeteorsAsync(
-        @Query("\$where", encoded = true) where: String
-    ): Deferred<List<FallenMeteorProperty>>
+        @Query("\$where", encoded = true) where: String,
+        @Query("\$limit") limit: Int,
+        @Query("\$offset") offset: Int
+    ): Deferred<MutableList<FallenMeteorProperty>>
 }

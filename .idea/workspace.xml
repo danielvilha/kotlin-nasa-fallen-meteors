@@ -25,8 +25,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/danielvilha/fallenmeteors/FallenMeteorGetTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/danielvilha/fallenmeteors/FallenMeteorGetTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/danielvilha/fallenmeteors/network/FallenMeteorApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/danielvilha/fallenmeteors/network/FallenMeteorApiService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/danielvilha/fallenmeteors/network/FallenMeteorProperty.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/danielvilha/fallenmeteors/network/FallenMeteorProperty.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/danielvilha/fallenmeteors/ui/home/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/danielvilha/fallenmeteors/ui/home/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/danielvilha/fallenmeteors/ui/home/HomeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/danielvilha/fallenmeteors/ui/home/HomeViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/danielvilha/fallenmeteors/ui/home/adapter/BindingAdapters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/danielvilha/fallenmeteors/ui/home/adapter/BindingAdapters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_meteor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_meteor.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,68 +326,69 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1626020536710" />
-    <state x="419" y="164" key="#xdebugger.evaluate" timestamp="1626027085777">
+    <state x="419" y="164" key="#xdebugger.evaluate" timestamp="1626104638274">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="419" y="164" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1626027085777" />
+    <state x="419" y="164" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1626104638274" />
     <state x="308" y="212" key="AndroidCreateResourceFileDialog" timestamp="1626017785210">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="308" y="212" key="AndroidCreateResourceFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1626017785210" />
-    <state width="467" height="438" key="DebuggerActiveHint" timestamp="1625677393098">
-      <screen x="0" y="23" width="1440" height="833" />
+    <state width="467" height="474" key="DebuggerActiveHint" timestamp="1626103229208">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="467" height="474" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1626103229208" />
     <state width="467" height="438" key="DebuggerActiveHint/0.23.1440.833@0.23.1440.833" timestamp="1625677393098" />
     <state x="408" y="212" key="Downloadable.Font.Dialog.Size" timestamp="1625868580459">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="212" key="Downloadable.Font.Dialog.Size/0.0.1440.900@0.0.1440.900" timestamp="1625868580459" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1626031162672">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1626110615606">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626031162672" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626110615606" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1625827033185" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1625697275686" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1626031162670">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1626110615605">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1626031162670" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1626110615605" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1625827033183" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1625697275686" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1626031162670">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1626110615604">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1626031162670" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1626110615604" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1625827033182" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1625697275685" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1626031162671">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1626110615605">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1626031162671" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1626110615605" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1625827033184" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1625697275686" />
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1626031162674">
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1626110615608">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626031162674" />
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626110615608" />
     <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1625827033188" />
     <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1625697275688" />
-    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1626031162673">
+    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1626110615607">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1626031162673" />
+    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1626110615607" />
     <state width="1398" height="245" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1625827033186" />
     <state width="1398" height="245" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1625697275687" />
-    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1626031162672">
+    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1626110615606">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1626031162672" />
+    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1626110615606" />
     <state width="1398" height="245" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1625827033186" />
     <state width="1398" height="245" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1625697275687" />
-    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1626031162674">
+    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1626110615607">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1626031162674" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1626110615607" />
     <state width="1398" height="245" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1625827033187" />
     <state width="1398" height="245" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1625697275687" />
     <state x="406" y="159" key="RollbackChangesDialog" timestamp="1626001741685">
@@ -400,15 +407,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="427" y="205" width="586" height="518" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1626028764061" />
-    <state width="380" height="126" key="javadoc.popup.new" timestamp="1626031084036">
+    <state width="380" height="126" key="javadoc.popup.new" timestamp="1626112028536">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="380" height="126" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1626031084036" />
-    <state width="380" height="187" key="javadoc.popup.new/0.23.1440.829@0.23.1440.829" timestamp="1625822797602" />
+    <state width="380" height="126" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1626112028536" />
+    <state width="380" height="126" key="javadoc.popup.new/0.23.1440.829@0.23.1440.829" timestamp="1626107095708" />
     <state width="380" height="187" key="javadoc.popup.new/0.23.1440.830@0.23.1440.830" timestamp="1625857279942" />
     <state width="380" height="187" key="javadoc.popup.new/0.23.1440.831@0.23.1440.831" timestamp="1625879300049" />
     <state width="380" height="187" key="javadoc.popup.new/0.23.1440.832@0.23.1440.832" timestamp="1626002081212" />
-    <state width="380" height="126" key="javadoc.popup.new/0.23.1440.833@0.23.1440.833" timestamp="1626020764514" />
+    <state width="380" height="126" key="javadoc.popup.new/0.23.1440.833@0.23.1440.833" timestamp="1626100222696" />
     <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1625829206742">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -423,7 +430,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/androidTest/java/com/danielvilha/fallenmeteors/FallenMeteorGetTest.kt</url>
-          <line>22</line>
+          <line>26</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>

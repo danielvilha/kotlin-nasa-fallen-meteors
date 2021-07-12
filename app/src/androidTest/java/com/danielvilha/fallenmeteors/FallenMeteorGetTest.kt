@@ -17,11 +17,15 @@ class FallenMeteorGetTest {
     @Test
     fun getFallenMeteorsIsNotEmpty() {
         runBlocking {
-            val fallenMeteors = FallenMeteorApi.retrofitService.getFallenMeteorsAsync("year>='1900-1-01T00:00:00.000'")
+            val fallenMeteors = FallenMeteorApi.retrofitService.getFallenMeteorsAsync(
+                "year>='1900-1-01T00:00:00.000'",
+                 1000,
+                0
+            )
 
             try {
                 val fallen = fallenMeteors.await()
-                Log.v(FallenMeteorGetTest::class.java.name, fallen[1].toString())
+                Log.d(FallenMeteorGetTest::class.java.name, fallen.size.toString())
                 assert(fallen.isNotEmpty())
             } catch (t: Throwable) {
                 Log.e(FallenMeteorGetTest::class.java.name, t.localizedMessage)

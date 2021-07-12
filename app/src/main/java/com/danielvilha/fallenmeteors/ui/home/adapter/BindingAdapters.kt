@@ -2,7 +2,6 @@ package com.danielvilha.fallenmeteors.ui.home.adapter
 
 import android.view.View
 import android.widget.ImageView
-import android.widget.ProgressBar
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.danielvilha.fallenmeteors.R
@@ -24,7 +23,7 @@ fun bindRecyclerView(recyclerView: RecyclerView, data: List<FallenMeteorProperty
 }
 
 /**
- *
+ * Working with my API status in LOADING, ERROR or DONE
  */
 @BindingAdapter("fallenMeteorApiStatus")
 fun bindStatus(statusImageView: ImageView, status: FallenMeteorsStatus) {

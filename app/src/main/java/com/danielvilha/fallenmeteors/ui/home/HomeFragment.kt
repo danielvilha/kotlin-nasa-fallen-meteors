@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.core.view.isEmpty
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.RecyclerView
 import com.danielvilha.fallenmeteors.R
 import com.danielvilha.fallenmeteors.databinding.FragmentHomeBinding
 import com.danielvilha.fallenmeteors.ui.home.adapter.FallenMeteorAdapter
@@ -49,7 +50,7 @@ class HomeFragment : Fragment() {
             viewModel.displayPropertyDetails(it)
         })
 
-        // Setting the refresh in my recycler view
+        // Setting the swipe refresh in my recycler view
         binding.swipeRefresh.setOnRefreshListener {
             if (binding.recycler.isEmpty()) {
                 viewModel.getFallenMeteorProperties()
@@ -58,10 +59,22 @@ class HomeFragment : Fragment() {
                 })
             } else {
                 viewModel.getFallenMeteorProperties()
+                binding.recycler.adapter!!.notifyDataSetChanged()
             }
 
             binding.swipeRefresh.isRefreshing = false
         }
+
+        // Setting my server call when I reach the end of my list.
+        binding.recycler.addOnScrollListener(object : RecyclerView.OnScrollListener() {
+            override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
+                super.onScrollStateChanged(recyclerView, newState)
+                if (!recyclerView.canScrollVertically(1)) {
+                    viewModel.getFallenMeteorProperties()
+                    binding.recycler.adapter!!.notifyDataSetChanged()
+                }
+            }
+        })
 
         viewModel.navigateToSelectedProperty.observe(viewLifecycleOwner, {
             if (it != null) {
